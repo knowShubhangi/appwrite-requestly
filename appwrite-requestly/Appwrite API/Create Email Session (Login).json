@@ -1,0 +1,30 @@
+{
+  "name": "Create Email Session (Login)",
+  "rank": "av",
+  "request": {
+    "type": "http",
+    "url": "{{base_url}}/account/sessions/email",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "POST",
+    "queryParams": [],
+    "headers": [
+      {
+        "id": 1772983650686,
+        "key": "X-Appwrite-Project",
+        "value": "{{project_id}}",
+        "isEnabled": true,
+        "description": "",
+        "dataType": "string"
+      }
+    ],
+    "body": "{\n  \"email\": \"{{user_email}}\",\n  \"password\": \"{{user_password}}\"\n}",
+    "contentType": "application/json",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    }
+  }
+}

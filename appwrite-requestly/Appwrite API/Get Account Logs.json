@@ -1,0 +1,30 @@
+{
+  "name": "Get Account Logs",
+  "rank": "aw",
+  "request": {
+    "type": "http",
+    "url": "{{base_url}}/account/logs",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "GET",
+    "queryParams": [],
+    "headers": [
+      {
+        "id": 1772983833781,
+        "key": "X-Appwrite-Project",
+        "value": "{{project_id}}",
+        "isEnabled": true,
+        "description": "",
+        "dataType": "string"
+      }
+    ],
+    "body": "",
+    "contentType": "text/plain",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    }
+  }
+}

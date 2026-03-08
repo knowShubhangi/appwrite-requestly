@@ -1,0 +1,30 @@
+{
+  "name": "Get Account",
+  "rank": "auntit17729829772341",
+  "request": {
+    "type": "http",
+    "url": "{{base_url}}/account ",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "GET",
+    "queryParams": [],
+    "headers": [
+      {
+        "id": 1772983283438,
+        "key": "X-Appwrite-Project",
+        "value": "{{project_id}}",
+        "isEnabled": true,
+        "description": "",
+        "dataType": "string"
+      }
+    ],
+    "body": "",
+    "contentType": "text/plain",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    }
+  }
+}

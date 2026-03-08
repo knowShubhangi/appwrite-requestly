@@ -1,0 +1,29 @@
+{
+  "name": "Appwrite Cloud",
+  "variables": {
+    "base_url": {
+      "value": "https://cloud.appwrite.io/v1",
+      "type": "string",
+      "id": "010c666f-c630-4448-8a1c-b492c3f7e206",
+      "isSecret": false
+    },
+    "project_id": {
+      "value": "69a7f4d40032d4e4643d",
+      "type": "string",
+      "id": "aed473f6-cb8c-444c-8878-0614abd08179",
+      "isSecret": false
+    },
+    "user_email": {
+      "value": "test@email.com",
+      "type": "string",
+      "id": "8732e0ba-b9f5-45be-8dd7-6c7dde31bbf5",
+      "isSecret": false
+    },
+    "user_password": {
+      "value": "",
+      "type": "string",
+      "id": "4077e732-ec0f-4b77-b918-884676005042",
+      "isSecret": false
+    }
+  }
+}
