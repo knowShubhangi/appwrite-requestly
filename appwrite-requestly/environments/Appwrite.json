@@ -1,0 +1,13 @@
+{
+  "name": "Appwrite",
+  "variables": {
+    "base_url": {
+      "value": "https://cloud.appwrite.io/v1",
+      "type": "string",
+      "id": 1,
+      "isSecret": false
+    }
+  }
+}  }
+  }
+}

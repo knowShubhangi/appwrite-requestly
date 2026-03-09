@@ -137,6 +137,17 @@ Choose from one of the providers below:
   </tr>
 </table>
 
+## 🚀 Quick Start: API Testing with Requestly
+
+This repository includes a ready-to-use **Requestly API collection** — making it 10x faster for new contributors to start testing Appwrite's APIs without any manual setup.
+
+**What's included:**
+- 10 pre-built API requests covering the full account lifecycle (Register → Login → Update → Logout)
+- A pre-configured environment with all variables set up
+- Collection-level auth — set your Project ID once, it applies everywhere
+
+**Get started in 60 seconds** → See [REQUESTLY.md](./REQUESTLY.md) for the full setup guide.
+
 ## Getting Started
 
 Getting started with Appwrite is as easy as creating a new project, choosing your platform, and integrating its SDK into your code. You can easily get started with your platform of choice by reading one of our Getting Started tutorials.

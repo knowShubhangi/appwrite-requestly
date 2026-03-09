@@ -1,6 +1,6 @@
 {
   "name": "Get Account",
-  "rank": "auntit17729829772341",
+  "rank": "avl",
   "request": {
     "type": "http",
     "url": "{{base_url}}/account ",

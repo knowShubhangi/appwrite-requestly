@@ -1,0 +1,21 @@
+{
+  "name": "Get Account Sessions",
+  "request": {
+    "type": "http",
+    "url": "{{base_url}}/account/sessions",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "GET",
+    "queryParams": [],
+    "headers": [],
+    "body": "",
+    "contentType": "text/plain",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    }
+  },
+  "rank": "awd"
+}

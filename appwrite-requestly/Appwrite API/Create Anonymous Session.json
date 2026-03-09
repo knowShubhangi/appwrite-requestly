@@ -1,0 +1,21 @@
+{
+  "name": "Create Anonymous Session",
+  "rank": "avd",
+  "request": {
+    "type": "http",
+    "url": "{{base_url}}/account/sessions/anonymous",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "POST",
+    "queryParams": [],
+    "headers": [],
+    "body": "",
+    "contentType": "text/plain",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    }
+  }
+}

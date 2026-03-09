@@ -1,0 +1,21 @@
+{
+  "name": "Delete All Sessions (Logout)",
+  "rank": "az",
+  "request": {
+    "type": "http",
+    "url": "{{base_url}}/account/sessions",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "DELETE",
+    "queryParams": [],
+    "headers": [],
+    "body": "",
+    "contentType": "text/plain",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    }
+  }
+}

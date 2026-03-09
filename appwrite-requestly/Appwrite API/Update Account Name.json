@@ -1,0 +1,21 @@
+{
+  "name": "Update Account Name",
+  "request": {
+    "type": "http",
+    "url": "{{base_url}}/account/name",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "PATCH",
+    "queryParams": [],
+    "headers": [],
+    "body": "{\n  \"name\": \"Updated Test User\"\n}",
+    "contentType": "application/json",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    }
+  },
+  "rank": "awl"
+}

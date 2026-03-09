@@ -1,0 +1,21 @@
+{
+  "name": "6. Update Account Preferences",
+  "rank": "ay",
+  "request": {
+    "type": "http",
+    "url": "{{base_url}}/account/prefs",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "PATCH",
+    "queryParams": [],
+    "headers": [],
+    "body": "{\n  \"prefs\": {\n    \"theme\": \"dark\",\n    \"notifications\": true\n  }\n}",
+    "contentType": "application/json",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    }
+  }
+}
