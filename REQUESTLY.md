@@ -155,10 +155,11 @@ Appwrite publishes their complete OpenAPI 3.0 specification in their official [`
 
 | | Postman | Requestly |
 |---|---|---|
-| Lives inside the repo | ❌ Separate cloud workspace | ✅ Version-controlled with your code |
-| Requires an account to use | ✅ Yes | ❌ No |
-| Collaborate via Git | ❌ Manual export/import | ✅ Open a PR like any code change |
-| Stays in sync with the codebase | ❌ Gets stale | ✅ Always up to date |
+| Requires an account to use | ✅ Yes — mandatory since 2023 | ❌ No account needed |
+| Collection lives inside your repo | ❌ Lives in Postman's cloud workspace | ✅ Plain JSON files, directly in the repo |
+| New contributor setup | Clone repo → open Postman → manually import collection | Clone repo → open workspace. Done. |
+| Git collaboration | Requires Postman's own Git integration or manual export/import | Native — just commit and PR like any code file |
+| Works fully offline | ❌ Requires cloud sign-in | ✅ Fully local |
 
 ### vs cURL
 
