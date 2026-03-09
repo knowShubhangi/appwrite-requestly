@@ -1,5 +1,5 @@
 {
-  "name": "6. Update Account Preferences",
+  "name": "Update Account Preferences",
   "rank": "ay",
   "request": {
     "type": "http",
