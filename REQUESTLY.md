@@ -43,7 +43,28 @@ Every API request needs to know which Appwrite project it's talking to. Here's h
 
 ---
 
-## Step 3 — Set Your Environment Variables
+## Step 3 — Create a Test User in Appwrite
+
+Before you can test any authenticated API, you need a user account in your Appwrite project. Here's how to create one:
+
+1. Go to [cloud.appwrite.io](https://cloud.appwrite.io) and open your project
+2. In the left sidebar, click **"Auth"**
+3. Click the **"Users"** tab at the top
+4. Click **"Create User"** in the top right
+5. Fill in the form:
+   - **User ID**: leave it as `unique()` or type any ID you like
+   - **Email**: use the same email you'll put in `user_email` (e.g. `test@email.com`)
+   - **Password**: use something strong — at least 8 characters, not a common password (e.g. `Appwrite@2024!`)
+   - **Name**: anything you like (e.g. `Test User`)
+6. Click **"Create"**
+
+> ⚠️ Make sure the email and password you use here **exactly match** what you set in the `user_email` and `user_password` environment variables in the next step. Otherwise the Login request will return a `401`.
+
+---
+
+## Step 4 — Set Your Environment Variables
+
+
 
 This is where you tell Requestly your credentials. Think of it like a `.env` file, but with a UI.
 
@@ -70,7 +91,7 @@ Fill in the table like this:
 
 ---
 
-## Step 4 — Make Your First API Call
+## Step 5 — Make Your First API Call
 
 1. In the left sidebar, expand **"Appwrite API"**
 2. Click on **"Create Email Session (Login)"**
